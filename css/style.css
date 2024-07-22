@@ -1,0 +1,19 @@
+@font-face {
+    font-family:brand;
+    src: url('../fontawesome-free-6.3.0-web/webfonts/fa-brands-400.ttf');
+}
+
+@font-face {
+    font-family:letter;
+    src: url('../fontawesome-free-6.3.0-web/webfonts/fa-regular-400.ttf');
+}
+
+:root{
+    --main-color:#ffa500;
+    --border-raius:10px;
+    --font:brand;
+}
+
+body{
+    overflow-x: hidden;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consumindo rest api com JS</title>
+    <!-- style bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css"/>
+    <!-- SCRIPT  -->
+    <script defer src="./js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-8 mx-auto">
+        <div class="row justify-content-between">
+          <div class="col-md-12 mt-5">
+            <h1 class="text-center mb-4">Lyrics Search</h1>
+          </div>
+          <div class="col-md-12">
+            <form id="lyrics-form">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <div class="form-floating mb-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="artist"
+                      placeholder="Enter for your artist"
+                    />
+                    <label for="artist">Artist</label>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-floating mb-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="song"
+                      placeholder="Enter him song"
+                    />
+                    <label for="song">Song</label>
+                  </div>
+                </div>
+
+                <div>
+                  <button type="submit" class="btn btn-primary">
+                    Let's sing
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6">
+                <p class="mb-4" id="lyrics"></p>
+            </div>
+        </div>
+    <!-- script -->
+    <script src="./js/async.js"></script>
+  </body>
+</html>
